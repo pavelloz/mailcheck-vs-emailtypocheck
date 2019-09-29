@@ -1,0 +1,28 @@
+{
+  "name": "mailcheck-vs-emailtypocheck",
+  "version": "1.0.0",
+  "description": "Comparison of two candidates for email typo correction for UX enchancement",
+  "main": "index.js",
+  "dependencies": {
+    "emailtypocheck": "^1.0.3",
+    "mailcheck": "^1.1.1",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack-cli -w --mode=production",
+    "build": "webpack-cli --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelloz/mailcheck-vs-emailtypocheck.git"
+  },
+  "keywords": [],
+  "author": "Paweł Kowalski <pavelloz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavelloz/mailcheck-vs-emailtypocheck/issues"
+  },
+  "homepage": "https://github.com/pavelloz/mailcheck-vs-emailtypocheck#readme"
+}

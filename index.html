@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mailcheck vs emailtypocheck</title>
+    <link rel="stylesheet" href="dist/main.css">
+</head>
+<body>
+    <h1>
+        <a href="https://github.com/mailcheck/mailcheck">mailcheck</a> vs <a href="https://github.com/qutorial/emailtypocheck">emailtypocheck</a>
+    </h1>    
+
+    <p>
+        This page is a live demo showcasing difference in behavior of two scripts with default settings.
+        <br>
+        It does not mean one is better or the other. As always, it depends on your use case.
+        <br><br>
+        Note: mailcheck can be configured, emailtypocheck needs forking should you need customizing.
+    </p>
+
+    <p><a href="https://github.com/pavelloz/mailcheck-vs-emailtypocheck">[source code]</a></p>
+
+    <hr>
+
+    <label for="email">Your test email</label>
+    <input type="text" id="email" value="example@g.com" data-input>
+
+    <p> mailcheck: <b data-result="mailcheck"></b> </p>
+    <p> emailtypocheck: <b data-result="emailtypocheck"></b> </p>
+
+    <script src="dist/main.js"></script>
+</body>
+</html>
