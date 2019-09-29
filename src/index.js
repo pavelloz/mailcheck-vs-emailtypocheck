@@ -6,6 +6,7 @@ const resultMailcheck = document.querySelector('[data-result="mailcheck"]');
 const resultEmailtypocheck = document.querySelector('[data-result="emailtypocheck"]');
 
 const runMailcheck = email => {
+  resultMailcheck.textContent = '';
   Mailcheck.run({
     email,
     suggested: suggestion => {
@@ -15,6 +16,7 @@ const runMailcheck = email => {
 };
 
 const runEmailtypocheck = email => {
+  resultEmailtypocheck.textContent = '';
   try {
     resultEmailtypocheck.textContent = checkEmailTypos(email).join(', ');
   } catch(e) {};

@@ -1,13 +1,22 @@
 body {
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
+
 a, a:visited {
     color: blue;
 }
 
+hr {
+    margin: 1em 0;
+}
+
 input {
+    width: 30em;
     padding: .4rem .5rem;
     margin-left: 0.5rem;
+    font-size: 1.1em;
+    border-color: #999;
+    border-width: 1px;
 }
 
 p {
