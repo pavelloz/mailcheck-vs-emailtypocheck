@@ -11,8 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "webpack-cli -w --mode=production -o _site/dist/main.js",
-    "build": "webpack-cli --mode=production -o _site/dist/main.js"
+    "start": "webpack-cli -w --mode=production",
+    "build": "webpack-cli --mode=production"
   },
   "repository": {
     "type": "git",
